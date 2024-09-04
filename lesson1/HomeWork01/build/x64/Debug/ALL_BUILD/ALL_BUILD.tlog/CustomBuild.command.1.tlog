@@ -1,0 +1,10 @@
+^D:\HILLELPRO\LESSON1\HOMEWORK01\CMAKELISTS.TXT
+setlocal
+D:\hillel\bin\cmake.exe -SD:/HillelPro/lesson1/HomeWork01 -BD:/HillelPro/lesson1/HomeWork01/build --check-stamp-file D:/HillelPro/lesson1/HomeWork01/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

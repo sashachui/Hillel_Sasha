@@ -1,0 +1,10 @@
+^D:\HILLELPRO\LESSON1\HOMEWORK01\BUILD\CMAKEFILES\3DE62828F93E8C94D17E63A4BE477F96\GENERATE.STAMP.RULE
+setlocal
+D:\hillel\bin\cmake.exe -SD:/HillelPro/lesson1/HomeWork01 -BD:/HillelPro/lesson1/HomeWork01/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/HillelPro/lesson1/HomeWork01/build/DifficultMath.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

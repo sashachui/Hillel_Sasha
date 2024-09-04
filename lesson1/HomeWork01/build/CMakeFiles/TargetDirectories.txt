@@ -1,0 +1,4 @@
+D:/HillelPro/lesson1/HomeWork01/build/CMakeFiles/ALL_BUILD.dir
+D:/HillelPro/lesson1/HomeWork01/build/CMakeFiles/ZERO_CHECK.dir
+D:/HillelPro/lesson1/HomeWork01/build/lib/CMakeFiles/MathFuncs.dir
+D:/HillelPro/lesson1/HomeWork01/build/src/CMakeFiles/main_app.dir
